@@ -1,0 +1,597 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.footer .block__bottom__footer .a__text__nav, .footer .block__bottom__footer .text__copyright, .footer .wrapper__nav__footer .nav__footer__service .li_service, .footer .wrapper__nav__footer .nav__footer__menu .li_menu, .footer .wrapper__nav__footer .a__text__nav, .header .wrapper__course .block__course .block__pay .btn__pay, .header .wrapper__course .block__course .block__pay .haw__many__dollars, .header .wrapper__course .block__course .person__course, .header .wrapper__course .block__course .text__bitmap__course, .header .wrapper__course .block__course .left__top__card, .header .wrapper__course .block__course__click .block__pay .btn__pay, .header .wrapper__course .block__course__click .block__pay .haw__many__dollars, .header .wrapper__course .block__course__click .person__course, .header .wrapper__course .block__course__click .text__bitmap, .header .wrapper__course .block__course__click .left__top__card, .header .text__h, .header .text__title, .header .block__btn__header .btn__header, .main .block__bottom__block .card__main .block__card_4 .text__title__card, .main .block__bottom__block .card__main .block__card_3 .text__title__card, .main .block__bottom__block .card__main .block__card_2 .text__title__card, .main .block__bottom__block .card__main .block__card_1 .text__title__card, .main .block__bottom__block .main__text__h, .main .block__bottom__block .text__h, .main .block__bottom__block .text__title, .main .wrapper__text__plus__image .block__left__menu .btn__main, .main .wrapper__text__plus__image .block__left__menu .main__text__h, .main .wrapper__text__plus__image .block__left__menu .text__h, .main .wrapper__text__plus__image .block__left__menu .text__title, .main .wrapper__nav .btn__main, .main .wrapper__nav .nav__menu {
+  text-decoration: none;
+  font-family: "Sora";
+  font-style: normal;
+}
+
+.main {
+  background: #e7f5ff;
+}
+.main .wrapper__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+}
+.main .wrapper__nav .nav__menu {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-decoration: none;
+  text-align: center;
+  color: #333333;
+}
+.main .wrapper__nav .nav__menu:hover {
+  color: #4A90E2;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+.main .wrapper__nav .nav ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+.main .wrapper__nav .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main .wrapper__nav .btn__main {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4A90E2;
+  border: 1px solid rgba(74, 144, 226, 0.3019607843);
+}
+.main .wrapper__nav .btn__main:hover {
+  color: #fff;
+  background-color: #3191ff;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  border: 1px solid #3191ff;
+}
+.main .wrapper__text__plus__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 120px;
+  padding-bottom: 330px;
+}
+.main .wrapper__text__plus__image .block__left__menu {
+  margin-top: 130px;
+}
+.main .wrapper__text__plus__image .block__left__menu .text__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #9497A5;
+}
+.main .wrapper__text__plus__image .block__left__menu .text__h {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -3px;
+  margin-bottom: 25px;
+  color: #333333;
+}
+.main .wrapper__text__plus__image .block__left__menu .main__text__h {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: rgba(51, 51, 51, 0.5019607843);
+  width: 350px;
+}
+.main .wrapper__text__plus__image .block__left__menu .btn__main {
+  background-color: #4A90E2;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  width: 400px;
+}
+.main .wrapper__text__plus__image .block__left__menu .btn__main:hover {
+  color: #fff;
+  background-color: #0077ff;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+.main .block__bottom__block .text__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #9497A5;
+  text-align: center;
+  margin: 0;
+}
+.main .block__bottom__block .text__h {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -3px;
+  margin-bottom: 25px;
+  color: #333333;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+.main .block__bottom__block .main__text__h {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: rgba(51, 51, 51, 0.5019607843);
+  text-align: center;
+  margin: 0;
+}
+.main .block__bottom__block .card__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 30%);
+          transform: translate(-50%, 30%);
+}
+.main .block__bottom__block .card__main .block__card_1 {
+  background: #E3F0FF;
+  border-radius: 12px;
+  width: 170px;
+  margin-right: 30px;
+}
+.main .block__bottom__block .card__main .block__card_1 .image__card__one {
+  width: 80px;
+  margin: 40px 45px 0;
+}
+.main .block__bottom__block .card__main .block__card_1 .text__title__card {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding-bottom: 35px;
+  text-align: center;
+  color: #333333;
+}
+.main .block__bottom__block .card__main .block__card_2 {
+  background: #FFF2DE;
+  border-radius: 12px;
+  margin-right: 30px;
+}
+.main .block__bottom__block .card__main .block__card_2 .image__card__one {
+  width: 80px;
+  margin: 40px 45px 0;
+}
+.main .block__bottom__block .card__main .block__card_2 .text__title__card {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding-bottom: 35px;
+  text-align: center;
+  color: #333333;
+}
+.main .block__bottom__block .card__main .block__card_3 {
+  background: #ECFFD7;
+  border-radius: 12px;
+  margin-right: 30px;
+}
+.main .block__bottom__block .card__main .block__card_3 .image__card__one {
+  width: 80px;
+  margin: 40px 45px 0;
+}
+.main .block__bottom__block .card__main .block__card_3 .text__title__card {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding-bottom: 35px;
+  text-align: center;
+  color: #333333;
+}
+.main .block__bottom__block .card__main .block__card_4 {
+  background: #FFE2E5;
+  border-radius: 12px;
+  margin-right: 30px;
+}
+.main .block__bottom__block .card__main .block__card_4 .image__card__one {
+  width: 80px;
+  margin: 40px 45px 0;
+}
+.main .block__bottom__block .card__main .block__card_4 .text__title__card {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding-bottom: 35px;
+  text-align: center;
+  color: #333333;
+}
+.main .block__bottom__block .pos__relative {
+  position: relative;
+}
+
+.header {
+  background-color: #fff;
+}
+.header .block__btn__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 150px;
+}
+.header .block__btn__header .btn__header {
+  border: 1px solid rgba(74, 144, 226, 0.3);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4A90E2;
+  width: 100px;
+}
+.header .block__btn__header .btn__header:hover {
+  color: #fff;
+  background-color: #0077ff;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+.header .text__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #9497A5;
+  margin: 0;
+}
+.header .text__h {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -3px;
+  margin-bottom: 25px;
+  color: #333333;
+  font-size: 56px;
+  line-height: 64px;
+  width: 330px;
+  margin: 0;
+  padding-bottom: 70px;
+}
+.header .wrapper__course {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 30px;
+}
+.header .wrapper__course .block__course__click, .header .wrapper__course .block__course {
+  margin-right: 20px;
+}
+.header .wrapper__course .block__course__click .left__top__card {
+  background: #E3F0FF;
+  border-radius: 16px;
+  width: 66px;
+  position: absolute;
+  top: 0%;
+  left: 3%;
+  -webkit-transform: translate(-20%, 100%);
+          transform: translate(-20%, 100%);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+}
+.header .wrapper__course .block__course__click .left__top__card:hover {
+  background-color: #d1e6ff;
+  cursor: pointer;
+}
+.header .wrapper__course .block__course__click .image__bitmap {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.496886)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.496886) 100%);
+  border-radius: 12px;
+  width: 570px;
+}
+.header .wrapper__course .block__course__click .text__bitmap {
+  position: absolute;
+  top: 60%;
+  left: 8%;
+  -webkit-transform: translate(-20%, -20%);
+          transform: translate(-20%, -20%);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  width: 406px;
+  color: #FFFFFF;
+}
+.header .wrapper__course .block__course__click .person__course {
+  position: absolute;
+  top: 85%;
+  left: 4%;
+  -webkit-transform: translate(-20%, -20%);
+          transform: translate(-20%, -20%);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.502972);
+}
+.header .wrapper__course .block__course__click .person__course .person__oval {
+  float: left;
+  width: 32px;
+}
+.header .wrapper__course .block__course__click .block__pay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  -webkit-transform: translate(40%, -20%);
+          transform: translate(40%, -20%);
+}
+.header .wrapper__course .block__course__click .block__pay .haw__many__dollars {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-right: 25px;
+}
+.header .wrapper__course .block__course__click .block__pay .btn__pay {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #FF7988;
+}
+.header .wrapper__course .block__course__click .block__pay .btn__pay:hover {
+  color: #fff;
+  background-color: #e74d5f;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+.header .wrapper__course .block__course {
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+  border-radius: 12px;
+}
+.header .wrapper__course .block__course .left__top__card {
+  background: #FFF2DE;
+  border-radius: 16px;
+  width: 66px;
+  position: absolute;
+  top: 0%;
+  left: 38%;
+  -webkit-transform: translate(100%, 60%);
+          transform: translate(100%, 60%);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+}
+.header .wrapper__course .block__course .left__top__card:hover {
+  background-color: #ffcd82;
+  cursor: pointer;
+}
+.header .wrapper__course .block__course .image__pay__course {
+  width: 240px;
+}
+.header .wrapper__course .block__course .text__bitmap__course {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  width: 222px;
+  padding: 15px;
+  color: #333333;
+}
+.header .wrapper__course .block__course .person__course {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.5);
+  padding-left: 15px;
+  padding-bottom: 25px;
+}
+.header .wrapper__course .block__course .person__course .person__oval {
+  margin-right: 10px;
+  width: 32px;
+  float: left;
+}
+.header .wrapper__course .block__course .block__pay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 73%;
+  left: 35%;
+  -webkit-transform: translate(50%, -20%);
+          transform: translate(50%, -20%);
+}
+.header .wrapper__course .block__course .block__pay .haw__many__dollars {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  padding-right: 60px;
+}
+.header .wrapper__course .block__course .block__pay .btn__pay {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #FF7988;
+}
+.header .wrapper__course .block__course .block__pay .btn__pay:hover {
+  color: #fff;
+  background-color: #e74d5f;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+.header .pos__relative {
+  position: relative;
+}
+
+.footer {
+  background: #e7f5ff;
+}
+.footer .wrapper__nav__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .wrapper__nav__footer .a__text__nav {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+}
+.footer .wrapper__nav__footer .a__text__nav:hover {
+  color: #006ae4;
+  -webkit-transition: 0.4s all ease-in;
+  transition: 0.4s all ease-in;
+}
+.footer .wrapper__nav__footer .nav__footer__menu .li_menu {
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #9497A5;
+}
+.footer .wrapper__nav__footer .nav__footer__service ul, .footer .wrapper__nav__footer .nav__footer__menu ul {
+  list-style: none;
+}
+.footer .wrapper__nav__footer .nav__footer__service .li_service {
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #9497A5;
+}
+.footer .wrapper__nav__footer .block__program i {
+  color: #4A90E2;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+.footer .wrapper__nav__footer .block__program i:hover {
+  color: #006ae4;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  cursor: pointer;
+}
+.footer .line__footer {
+  border: 0.1px solid #000;
+  width: 1170px;
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.16;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 45px;
+}
+.footer .block__bottom__footer ul li {
+  list-style: none;
+}
+.footer .block__bottom__footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 210px;
+}
+.footer .block__bottom__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .block__bottom__footer .text__copyright {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.5);
+  padding-bottom: 50px;
+}
+.footer .block__bottom__footer .a__text__nav {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+  margin-right: 60px;
+}
+.footer .block__bottom__footer .a__text__nav:hover {
+  color: #006ae4;
+  -webkit-transition: 0.4s all ease-in;
+  transition: 0.4s all ease-in;
+}
+.footer .wrapper__image__footer {
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-column-align: left;
+      justify-self: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}

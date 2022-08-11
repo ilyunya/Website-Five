@@ -1,0 +1,107 @@
+.wrapper__nav__footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    // padding-top: 70px;
+    .a__text__nav {
+        @extend %font;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #333333;
+        &:hover {
+            color: #006ae4;
+            transition: 0.4s all ease-in
+        }
+    }
+    .nav__footer__menu {
+        .li_menu {
+            @extend %font;
+            list-style: none;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #9497A5;
+        }
+    }
+    .nav__footer__service ul, .nav__footer__menu ul {
+        list-style: none;
+    }
+    // .nav__footer__service, .nav__footer__menu {
+    //     margin: 50px
+    // }
+    .nav__footer__service {
+        .li_service {
+            @extend %font;
+            list-style: none;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #9497A5;
+        }
+    }
+    .block__program i{
+        color: #4A90E2;
+        font-size: 30px;
+        margin-bottom: 100px;
+        &:hover {
+            color: #006ae4;
+            transition: all 0.4s ease-in;
+            cursor: pointer;
+        }
+    }
+    // .logo__main__footer {
+    //     margin-top: 100px;
+    // }
+}
+.line__footer {
+    border: 0.1px solid #000; 
+    width: 1170px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.16;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 45px;
+}
+.block__bottom__footer ul li {
+    list-style: none;
+}
+.block__bottom__footer ul {
+    display: flex;
+    margin-right: 210px;
+}
+.block__bottom__footer {
+    display: flex;
+    justify-content: space-between;
+    .text__copyright {
+        @extend %font;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(51, 51, 51, 0.5);
+        padding-bottom: 50px;
+    }
+    .a__text__nav {
+        @extend %font;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #333333;
+        margin-right: 60px;
+        &:hover {
+            color: #006ae4;
+            transition: 0.4s all ease-in;
+        }
+    }
+}
+.wrapper__image__footer {
+    padding-top: 70px;
+    display: flex;
+    justify-self: left;
+    align-items: left;
+}

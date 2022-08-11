@@ -1,0 +1,46 @@
+@mixin btn($color) {
+    @extend %font;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color;
+}
+@mixin hover__effects($color__text,$color__bgc) {
+    color: $color__text;
+    background-color: $color__bgc;
+    transition: all 0.4s ease-in;
+}
+@mixin text__title($color) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: $color;
+}
+@mixin text__header($color) {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -3px;
+    margin-bottom: 25px;
+    color: $color;
+}
+@mixin text__main($color) {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: $color;
+}
+@mixin position($top, $left, $one_translate, $two_translate) {
+    position: absolute;
+    top: $top; // 50%
+    left: $left; // 50%
+    transform: translate($one_translate, $two_translate); // -50% and -50% 
+}

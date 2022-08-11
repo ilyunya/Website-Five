@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+// шаблоны
+
+%font {
+    text-decoration: none;
+    font-family: 'Sora';
+    font-style: normal;
+}
+
+// переменные
+
+$color__menu: #333333;
+
+// миксины
+
+@import "mixin.scss";
+
+// заканчиваются
+
+.main {
+    background: #e7f5ff;
+    @import "nav__menu.scss";
+    .wrapper__text__plus__image {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 120px;
+        padding-bottom: 330px;
+        .block__left__menu {
+            margin-top: 130px;
+            .text__title {
+                @extend %font;
+                @include text__title(#9497A5);
+            }
+            .text__h {
+                @extend %font;
+                @include text__header(#333333);
+            }
+            .main__text__h {
+                @extend %font;
+                @include text__main(#33333380);
+                width: 350px;
+            }
+            .btn__main {
+                background-color: #4A90E2;
+                @include btn(#fff);
+                width: 400px;
+                &:hover {
+                    @include hover__effects(#fff, #0077ff);
+                }
+            }
+        }
+    }
+    .block__bottom__block {
+        .text__title {
+            @extend %font;
+            @include text__title(#9497A5);
+            text-align: center;
+            margin: 0;
+        }
+        .text__h {
+            @extend %font;
+            @include text__header(#333333);
+            text-align: center;
+            margin: 0 0 15px 0;
+        }
+        .main__text__h {
+            @extend %font;
+            @include text__main(#33333380);
+            text-align: center;
+            margin: 0;
+        }
+        @import "card__main.scss";
+    }
+}
+.header {
+    background-color: #fff;
+    .block__btn__header {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        .btn__header {
+            border: 1px solid rgba(74, 144, 226, 0.3);
+            @include btn(#4A90E2);
+            width: 100px;
+            &:hover {
+                @include hover__effects(#fff, #0077ff);
+            }
+        }
+    }
+    .text__title {
+        @extend %font;
+        @include text__title(#9497A5);
+        margin: 0;
+    }
+    .text__h {
+        @extend %font;
+        @include text__header(#333333);
+        font-size: 56px;
+        line-height: 64px;
+        width: 330px;
+        margin: 0;
+        padding-bottom: 70px;
+    }
+    .wrapper__course {
+        display: flex;
+        // justify-content: space-between;
+        padding-bottom: 30px;
+        .block__course__click, .block__course {
+            margin-right: 20px;
+        }
+        .block__course__click {
+            .left__top__card {
+                background: #E3F0FF;
+                border-radius: 16px;
+                width: 66px;
+
+                @include position(0%,3%,-20%,100%);
+
+                @extend %font;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+                color: #333333;
+                text-align: center;
+                &:hover {
+                    background-color: #d1e6ff;
+                    cursor: pointer;
+                }
+            }
+            .image__bitmap {
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.496886) 100%);
+                border-radius: 12px;
+                width: 570px;
+            }
+            .text__bitmap {
+                @include position(60%,8%,-20%,-20%);
+                @extend %font;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                letter-spacing: -1px;
+                width: 406px;
+                color: #FFFFFF;
+            }
+            .person__course {
+                @include position(85%,4%,-20%,-20%);
+                @extend %font;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+                color: rgba(255, 255, 255, 0.502972);
+                .person__oval {
+                    float: left;
+                    width: 32px;
+                }
+            }
+            .block__pay {
+                display: flex;
+                @include position(85%,20%,40%,-20%);
+                .haw__many__dollars {
+                    @extend %font;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                    padding-right: 25px
+                }
+                .btn__pay {
+                    @include btn(#fff);
+                    background-color: #FF7988;
+                    &:hover {
+                        @include hover__effects(#fff, #e74d5f);
+                    }
+                }
+            }
+        }
+        .block__course {
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+            border-radius: 12px;
+            .left__top__card {
+                background: #FFF2DE;
+                border-radius: 16px;
+                width: 66px;
+
+                @include position(0%,38%,100%,60%);
+
+                @extend %font;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+                color: #333333;
+                text-align: center;
+                &:hover {
+                    background-color: #ffcd82;
+                    cursor: pointer;
+                }
+            }
+            .image__pay__course {
+                width: 240px;
+            }
+            .text__bitmap__course {
+                @extend %font;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                width: 222px;
+                padding: 15px;
+                color: #333333;
+            }
+            .person__course {
+                @extend %font;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+                color: rgba(51, 51, 51, 0.5);
+                padding-left: 15px;
+                padding-bottom: 25px;
+                .person__oval {
+                    margin-right: 10px;
+                    width: 32px;
+                    float: left;
+                }
+            }
+            .block__pay {
+                display: flex;
+                @include position(73%,35%,50%,-20%);
+                .haw__many__dollars {
+                    @extend %font;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #333333;
+                    padding-right: 60px
+                }
+                .btn__pay {
+                    @include btn(#fff);
+                    background-color: #FF7988;
+                    &:hover {
+                        @include hover__effects(#fff, #e74d5f);
+                    }
+                }
+            }
+        }
+    }
+    .pos__relative {
+        position: relative;
+    }
+}
+
+.footer {
+    background: #e7f5ff;
+    @import "footer.scss";
+}

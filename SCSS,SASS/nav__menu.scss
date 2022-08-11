@@ -1,0 +1,40 @@
+.wrapper__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+        .logo__main {
+            // width: 100px;
+        }
+        .nav__menu{
+            @extend %font;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            text-decoration: none;
+
+            text-align: center;
+
+            color: $color__menu;
+            &:hover {
+                color: #4A90E2;
+                transition: all 0.4s ease-in;
+            }
+        }
+        .nav ul li{
+            list-style: none;
+            padding-right: 40px;
+        }
+        .nav ul{
+            display: flex;
+        }
+        .btn__main {
+        @include btn(#4A90E2);
+        border: 1px solid #4a90e24d;   
+
+        &:hover {
+            @include hover__effects(#fff, #3191ff);
+            border: 1px solid #3191ff;
+        }
+        }
+}
