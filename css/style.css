@@ -8,7 +8,7 @@
   width: 1440px;
 }
 
-.footer .block__bottom__footer .a__text__nav, .footer .block__bottom__footer .text__copyright, .footer .wrapper__nav__footer .nav__footer__service .li_service, .footer .wrapper__nav__footer .nav__footer__menu .li_menu, .footer .wrapper__nav__footer .a__text__nav, .header .wrapper__course .block__course .block__pay .btn__pay, .header .wrapper__course .block__course .block__pay .haw__many__dollars, .header .wrapper__course .block__course .person__course, .header .wrapper__course .block__course .text__bitmap__course, .header .wrapper__course .block__course .left__top__card, .header .wrapper__course .block__course__click .block__pay .btn__pay, .header .wrapper__course .block__course__click .block__pay .haw__many__dollars, .header .wrapper__course .block__course__click .person__course, .header .wrapper__course .block__course__click .text__bitmap, .header .wrapper__course .block__course__click .left__top__card, .header .text__h, .header .text__title, .header .block__btn__header .btn__header, .main .block__bottom__block .card__main .block__card_4 .text__title__card, .main .block__bottom__block .card__main .block__card_3 .text__title__card, .main .block__bottom__block .card__main .block__card_2 .text__title__card, .main .block__bottom__block .card__main .block__card_1 .text__title__card, .main .block__bottom__block .main__text__h, .main .block__bottom__block .text__h, .main .block__bottom__block .text__title, .main .wrapper__text__plus__image .block__left__menu .btn__main, .main .wrapper__text__plus__image .block__left__menu .main__text__h, .main .wrapper__text__plus__image .block__left__menu .text__h, .main .wrapper__text__plus__image .block__left__menu .text__title, .main .wrapper__nav .btn__main, .main .wrapper__nav .nav__menu {
+.footer .block__bottom__footer .a__text__nav, .footer .block__bottom__footer .text__copyright, .footer .wrapper__nav__footer .nav__footer__service .li_service, .footer .wrapper__nav__footer .nav__footer__menu .li_menu, .footer .wrapper__nav__footer .a__text__nav, .section__info__work .card__main .block__one__card .text__title__card__main, .section__info__work .card__main .block__one__card .text__card__main, .section__info__work .wrapper__text__plus__image .block__left__menu .btn__main, .section__info__work .wrapper__text__plus__image .block__left__menu .main__text__h, .section__info__work .wrapper__text__plus__image .block__left__menu .text__h, .section__info__work .wrapper__text__plus__image .block__left__menu .text__title, .section__info__work .wrapper__info__work .block__info__work .block__display .text__title__onTheRight, .section__info__work .wrapper__info__work .block__info__work__right .block__display .text__title__onTheRight, .section__info__work .wrapper__info__work .block__info__work .block__display .text__onTheRight, .section__info__work .wrapper__info__work .block__info__work__right .block__display .text__onTheRight, .section__info__work .wrapper__info__work .block__info__work .header__text__card, .section__info__work .wrapper__info__work .block__info__work__right .header__text__card, .section__info__work .block__work .text__h, .section__info__work .block__work .text__title, .our__work .wrapper__text__info .block__info .title__header__block, .our__work .wrapper__text__info .block__info .text__header__block, .our__work .wrapper__text__info .block__info .header__text__block, .our__work .wrapper__text__plus__image .block__left__menu .btn, .our__work .wrapper__text__plus__image .block__left__menu .btn__main, .our__work .wrapper__text__plus__image .block__left__menu .main__text__h, .our__work .wrapper__text__plus__image .block__left__menu .text__h, .our__work .wrapper__text__plus__image .block__left__menu .text__title, .header .block__center .btn, .main .block__bottom__block .card__main .block__card_4 .text__title__card, .main .block__bottom__block .card__main .block__card_3 .text__title__card, .main .block__bottom__block .card__main .block__card_2 .text__title__card, .main .block__bottom__block .card__main .block__card_1 .text__title__card, .main .block__bottom__block .main__text__h, .main .block__bottom__block .text__h, .main .block__bottom__block .text__title, .main .wrapper__text__plus__image .block__left__menu .btn__main, .main .wrapper__text__plus__image .block__left__menu .main__text__h, .main .wrapper__text__plus__image .block__left__menu .text__h, .main .wrapper__text__plus__image .block__left__menu .text__title, .main .wrapper__nav .btn__main, .main .wrapper__nav .nav__menu {
   text-decoration: none;
   font-family: "Sora";
   font-style: normal;
@@ -244,16 +244,20 @@
 .header {
   background-color: #fff;
 }
-.header .block__btn__header {
+.header .pos__relative {
+  position: relative;
+}
+.header .block__center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 150px;
+  margin-top: 90px;
+  margin-bottom: 130px;
 }
-.header .block__btn__header .btn__header {
+.header .block__center .btn {
   border: 1px solid rgba(74, 144, 226, 0.3);
   font-weight: 700;
   font-size: 14px;
@@ -264,15 +268,33 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #4A90E2;
-  width: 100px;
+  width: 400px;
+  width: 1440px;
 }
-.header .block__btn__header .btn__header:hover {
+.header .block__center .btn:hover {
   color: #fff;
   background-color: #0077ff;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
 }
-.header .text__title {
+
+.our__work {
+  background: #e7f5ff;
+}
+.our__work .wrapper__text__plus__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 120px;
+  padding-bottom: 330px;
+}
+.our__work .wrapper__text__plus__image .block__left__menu {
+  margin-top: 130px;
+}
+.our__work .wrapper__text__plus__image .block__left__menu .text__title {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
@@ -280,101 +302,24 @@
   margin-bottom: 20px;
   text-transform: uppercase;
   color: #9497A5;
-  margin: 0;
 }
-.header .text__h {
+.our__work .wrapper__text__plus__image .block__left__menu .text__h {
   font-weight: 700;
   font-size: 72px;
   line-height: 80px;
   letter-spacing: -3px;
   margin-bottom: 25px;
   color: #333333;
-  font-size: 56px;
-  line-height: 64px;
-  width: 330px;
-  margin: 0;
-  padding-bottom: 70px;
 }
-.header .wrapper__course {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 30px;
-}
-.header .wrapper__course .block__course__click, .header .wrapper__course .block__course {
-  margin-right: 20px;
-}
-.header .wrapper__course .block__course__click .left__top__card {
-  background: #E3F0FF;
-  border-radius: 16px;
-  width: 66px;
-  position: absolute;
-  top: 0%;
-  left: 3%;
-  -webkit-transform: translate(-20%, 100%);
-          transform: translate(-20%, 100%);
+.our__work .wrapper__text__plus__image .block__left__menu .main__text__h {
   font-weight: 400;
   font-size: 16px;
-  line-height: 32px;
-  color: #333333;
-  text-align: center;
+  margin-bottom: 40px;
+  color: rgba(51, 51, 51, 0.5019607843);
+  width: 350px;
 }
-.header .wrapper__course .block__course__click .left__top__card:hover {
-  background-color: #d1e6ff;
-  cursor: pointer;
-}
-.header .wrapper__course .block__course__click .image__bitmap {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.496886)));
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.496886) 100%);
-  border-radius: 12px;
-  width: 570px;
-}
-.header .wrapper__course .block__course__click .text__bitmap {
-  position: absolute;
-  top: 60%;
-  left: 8%;
-  -webkit-transform: translate(-20%, -20%);
-          transform: translate(-20%, -20%);
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
-  letter-spacing: -1px;
-  width: 406px;
-  color: #FFFFFF;
-}
-.header .wrapper__course .block__course__click .person__course {
-  position: absolute;
-  top: 85%;
-  left: 4%;
-  -webkit-transform: translate(-20%, -20%);
-          transform: translate(-20%, -20%);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 32px;
-  color: rgba(255, 255, 255, 0.502972);
-}
-.header .wrapper__course .block__course__click .person__course .person__oval {
-  float: left;
-  width: 32px;
-}
-.header .wrapper__course .block__course__click .block__pay {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  top: 85%;
-  left: 20%;
-  -webkit-transform: translate(40%, -20%);
-          transform: translate(40%, -20%);
-}
-.header .wrapper__course .block__course__click .block__pay .haw__many__dollars {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  color: #FFFFFF;
-  padding-right: 25px;
-}
-.header .wrapper__course .block__course__click .block__pay .btn__pay {
+.our__work .wrapper__text__plus__image .block__left__menu .btn__main {
+  background-color: #4A90E2;
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
@@ -384,80 +329,205 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  background-color: #FF7988;
+  width: 400px;
 }
-.header .wrapper__course .block__course__click .block__pay .btn__pay:hover {
+.our__work .wrapper__text__plus__image .block__left__menu .btn__main:hover {
   color: #fff;
-  background-color: #e74d5f;
+  background-color: #0077ff;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
 }
-.header .wrapper__course .block__course {
-  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
-          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
-  border-radius: 12px;
+.our__work .wrapper__text__plus__image {
+  padding-top: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
-.header .wrapper__course .block__course .left__top__card {
-  background: #FFF2DE;
-  border-radius: 16px;
-  width: 66px;
-  position: absolute;
-  top: 0%;
-  left: 38%;
-  -webkit-transform: translate(100%, 60%);
-          transform: translate(100%, 60%);
+.our__work .wrapper__text__plus__image .image__our_section {
+  width: 470px;
+}
+.our__work .wrapper__text__plus__image .block__left__menu .text__h {
+  width: 310px;
+  font-size: 56px;
+  line-height: 64px;
+}
+.our__work .wrapper__text__plus__image .block__left__menu .main__text__h {
+  font-size: 20px;
+  line-height: 32px;
+  width: 390px;
+}
+.our__work .wrapper__text__plus__image .block__left__menu .btn {
+  border: 1px solid rgba(74, 144, 226, 0.3);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4A90E2;
+}
+.our__work .wrapper__text__info {
+  padding-bottom: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.our__work .wrapper__text__info .block__info .header__text__block {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #333333;
+}
+.our__work .wrapper__text__info .block__info .header__text__block .image__plus {
+  margin-top: 15px;
+  float: right;
+}
+.our__work .wrapper__text__info .block__info .text__header__block {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #333333;
+}
+.our__work .wrapper__text__info .block__info .title__header__block {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.section__info__work {
+  background: #e7f5ff;
+}
+.section__info__work .block__work .text__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #9497A5;
+  text-align: center;
+  margin: 0;
+}
+.section__info__work .block__work .text__h {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -3px;
+  margin-bottom: 25px;
   color: #333333;
   text-align: center;
+  margin: 0 0 15px 0;
+  font-size: 56px;
+  line-height: 64px;
+  padding-bottom: 70px;
 }
-.header .wrapper__course .block__course .left__top__card:hover {
-  background-color: #ffcd82;
-  cursor: pointer;
+.section__info__work .wrapper__info__work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-.header .wrapper__course .block__course .image__pay__course {
-  width: 240px;
+.section__info__work .wrapper__info__work .block__info__work, .section__info__work .wrapper__info__work .block__info__work__right {
+  width: 600px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
 }
-.header .wrapper__course .block__course .text__bitmap__course {
+.section__info__work .wrapper__info__work .block__info__work .header__text__card, .section__info__work .wrapper__info__work .block__info__work__right .header__text__card {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: -3px;
+  color: #333333;
+  background: #E3F0FF;
+  border-radius: 12px 0px 0px 12px;
+  padding: 40px 60px 40px 60px;
+}
+.section__info__work .wrapper__info__work .block__info__work .block__display .text__onTheRight, .section__info__work .wrapper__info__work .block__info__work__right .block__display .text__onTheRight {
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  width: 222px;
-  padding: 15px;
   color: #333333;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding: 40px 0 10px 50px;
 }
-.header .wrapper__course .block__course .person__course {
+.section__info__work .wrapper__info__work .block__info__work .block__display .text__title__onTheRight, .section__info__work .wrapper__info__work .block__info__work__right .block__display .text__title__onTheRight {
+  width: 300px;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
   color: rgba(51, 51, 51, 0.5);
-  padding-left: 15px;
-  padding-bottom: 25px;
+  padding: 0 50px 20px 50px;
 }
-.header .wrapper__course .block__course .person__course .person__oval {
-  margin-right: 10px;
-  width: 32px;
-  float: left;
+.section__info__work .wrapper__info__work .block__info__work__right {
+  width: 580px;
+  margin-left: 200px;
 }
-.header .wrapper__course .block__course .block__pay {
+.section__info__work .wrapper__info__work .block__info__work__right .header__text__card {
+  background: #FFF2DE;
+}
+.section__info__work .wrapper__text__plus__image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  top: 73%;
-  left: 35%;
-  -webkit-transform: translate(50%, -20%);
-          transform: translate(50%, -20%);
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 120px;
+  padding-bottom: 330px;
 }
-.header .wrapper__course .block__course .block__pay .haw__many__dollars {
-  font-weight: 700;
-  font-size: 24px;
+.section__info__work .wrapper__text__plus__image .block__left__menu {
+  margin-top: 130px;
+}
+.section__info__work .wrapper__text__plus__image .block__left__menu .text__title {
+  font-weight: 400;
+  font-size: 16px;
   line-height: 32px;
-  color: #333333;
-  padding-right: 60px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #9497A5;
 }
-.header .wrapper__course .block__course .block__pay .btn__pay {
+.section__info__work .wrapper__text__plus__image .block__left__menu .text__h {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -3px;
+  margin-bottom: 25px;
+  color: #333333;
+}
+.section__info__work .wrapper__text__plus__image .block__left__menu .main__text__h {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: rgba(51, 51, 51, 0.5019607843);
+  width: 350px;
+}
+.section__info__work .wrapper__text__plus__image .block__left__menu .btn__main {
+  background-color: #4A90E2;
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
@@ -467,15 +537,63 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  background-color: #FF7988;
+  width: 400px;
 }
-.header .wrapper__course .block__course .block__pay .btn__pay:hover {
+.section__info__work .wrapper__text__plus__image .block__left__menu .btn__main:hover {
   color: #fff;
-  background-color: #e74d5f;
+  background-color: #0077ff;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
 }
-.header .pos__relative {
+.section__info__work .wrapper__text__plus__image .text__h {
+  width: 550px;
+}
+.section__info__work .wrapper__text__plus__image .main__text__h {
+  width: 470px;
+}
+.section__info__work .card__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -30%);
+          transform: translate(-50%, -30%);
+}
+.section__info__work .card__main .block__one__card {
+  margin-right: 30px;
+  width: 250px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+  border-radius: 12px;
+}
+.section__info__work .card__main .block__one__card .text__card__main {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  padding: 35px 0px 15px 30px;
+  width: 130px;
+}
+.section__info__work .card__main .block__one__card .text__title__card__main {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.5);
+  padding-left: 30px;
+  padding-bottom: 40px;
+  width: 200px;
+}
+.section__info__work .card__main .block__one__card .image__block__card {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.section__info__work .pos__relative {
   position: relative;
 }
 

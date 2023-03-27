@@ -1,0 +1,19 @@
+    @import "header__pay.scss";
+    .pos__relative {
+        position: relative;
+    }
+    .block__center {
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+        margin-bottom: 130px;
+        .btn {
+            border: 1px solid rgba(74, 144, 226, 0.3);;
+            @include btn(#4A90E2);
+            width: 400px;
+            &:hover {
+                @include hover__effects(#fff, #0077ff);
+            }
+            width: 1440px;
+        }
+    }
